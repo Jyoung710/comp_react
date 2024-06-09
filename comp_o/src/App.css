@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Pen+Script&family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Nanum+Pen+Script&family=Song+Myung&display=swap');
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.message {
+  width: 750px;
+  margin: auto;
+  text-align: center;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 150%;
+  font-style: normal;
+}
+
+hr {
+  width: 750px;
+  border: 0;
+  border-top: 3px solid gray;
+}
+
+h2 {
+  font-family: "Song Myung", serif;
+  font-size: 300%;
+  font-style: normal;
+}
+
+.box_container {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 1000px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.box {
+  background-color: rgba(243, 199, 217,0.3);
+  border-radius: 20px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.name {
+  width: 100px;
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 120%;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 2px solid gray;
+}
